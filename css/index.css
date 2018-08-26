@@ -281,14 +281,11 @@ footer {
      font-size: 40%;
    }
 
-   .iconos {
-     width: 70%;
+   .iconos + img {
+     width: 20%;
      float: right;
    }
 
-   .iconos, src {
-     width: 40%;
-   }
 
 
 
