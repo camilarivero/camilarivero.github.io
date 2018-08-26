@@ -62,36 +62,6 @@ main {
   }
 
 
-  #menu li > ul {
-  display:none;
-  position:absolute;
-  background: black;
-  padding: 0;
-  z-index: 2;
-  }
-
-  #menu li > ul li {
-  padding:0;
-  margin:1px 0;
-  list-style: none;
-  }
-
-
-
-
-  #menu li > ul li a{
-  width: 150px;
-  margin: 0 0 0 5px;
-  display:block;
-  color: white;
-  }
-
-
-  #menu li:hover > ul{
-  display:block;
-  width: 150px;
-  top: 35px;
-  }
 
   input[type=text] {
       background-color: white;
@@ -195,19 +165,17 @@ footer {
   #menu {
    float: left;
    width: 100%;
-   font-size: 100%;
+   font-size: 50%;
    }
 
-   #menu li > ul li a {
-   display:none ;
+   #menu li {
+     text-align: center;
    }
 
-   #menu li:hover > ul{
-   display:none;
-   }
+
 
    #banner img {
-     width:100%;
+     width:70%;
    }
 
    .search_bar {
@@ -216,7 +184,7 @@ footer {
 
    header{
     position: fixed;
-    margin-top: ;
+    background-color: #FFF;
 
    }
 
@@ -232,13 +200,19 @@ footer {
      width: 30%;
      float: left;
      position:fixed;
-     margin-top: 27%;
+     margin-top: 15%;
      font-size: 100%;
 
    }
 
+   section {
+     width: 70%;
+     font-weight: ;
+   }
+
    table, th{
      display: block;
+
 
    }
 
@@ -250,7 +224,26 @@ footer {
    .cont {
      width: 70%;
      float: right;
-     margin-top: 27%;
+     margin-top: 10%;
      background-color: #FFF;
+   }
 
- }
+   footer {
+     float: right;
+
+
+   }
+
+   .social, p {
+     font-size: 40%;
+   }
+
+   .iconos > img {
+     width: 10% ;
+     float: right;
+   }
+
+  .social >img {
+     width: 60%;
+
+   }
