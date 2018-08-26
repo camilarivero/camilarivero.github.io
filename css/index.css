@@ -291,7 +291,8 @@ footer {
 
   .social >img {
      width: 60%;
-     display: inline-block;
+
+     height:10%px!important;
    }
 
 
