@@ -213,6 +213,10 @@ footer {
    font-size: 50%;
    }
 
+   #menu li {
+     text-align: center;
+   }
+
 
 
    #banner img {
@@ -287,7 +291,7 @@ footer {
 
   .social >img {
      width: 60%;
-     
+
    }
 
 
