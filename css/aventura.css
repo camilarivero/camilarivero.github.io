@@ -1,42 +1,51 @@
 * {
   margin:0;
   padding: 0;
+  font-family:
 
 }
 
-body {
-  background-color: #36332d;
+
+main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+
 }
 
-header {
-  width:100%;
+header, img{
+  width: 100%;
+  padding: 0%;
 }
 
-.logo {
-  font-size: 100px;
-  font-family: fantasy;
-  color: #fff;
-
-  }
 
   nav {
     background-color: white;
+    width: 100%;
+  }
+
+  article {
+   font-family: 'Questrial', sans-serif;
+   border-radius: 8px;
   }
 
 
   #menu{
-    background-color:#fff ;
-    font-family: sans-serif;
+    background-color:#000 ;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
-    float: left;
-    position: relative;
+    float:left;
+    position: ;
     width: 100%;
+    max-width: 100%;
 
   }
 
   #menu .menup{
   margin: 0 auto;
-  padding: 0px;
+  margin-left: 22%;
+  margin-right:
+
 
   }
 
@@ -49,7 +58,7 @@ header {
   }
 
   #menu li a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   }
@@ -58,7 +67,7 @@ header {
   #menu li > ul {
   display:none;
   position:absolute;
-  background: white;
+  background: black;
   padding: 0;
   z-index: 2;
   }
@@ -76,7 +85,7 @@ header {
   width: 150px;
   margin: 0 0 0 5px;
   display:block;
-  color:black;
+  color: white;
   }
 
 
@@ -86,40 +95,171 @@ header {
   top: 35px;
   }
 
-.search_bar {
-  float: right;
-  padding: 10px;
-  margin-right:auto;
+  input[type=text] {
+      background-color: white;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
+      background-position:left ;
+      background-repeat: no-repeat;
+      padding-left: 40px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding:5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-table {
-  background-color:#FFFFCC;
-  font-family: sans-serif;
-  text-align: left;
-  width: 70%;
-  margin-left: 15%;
-  margin-right:15%;
+  ::placeholder {
+    text-align: center;
+    font-family:'Julius Sans One', sans-serif;
+  }
 
+  input[type=submit], select {
+    background-color: #000;
+    border-radius: 4px;
+    border-style: ridge;
+    border-color:#000;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
 }
 
-thead {
-  background-color: #FF9966;
-  font-family: sans-serif;
-  font-size: 30px;
+
+ dl {
+   padding-top: 2%;
+   padding-bottom: 5%;
+   padding-left: 20%;
+   padding-right: 20%;
+ }
+
+
+ dt, img {
+   border-radius: 8px;
+
+ }
+
+
+
+h1 {
+  font-size: 20px;
+  font-family:'Julius Sans One', sans-serif;
+  font-weight: inherit;
   text-align: center;
+  background-color: #000;
   color: #fff;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 2px;
 
 }
 
- img {
-  border-width:
-  border-color: #fff;
+section {
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+
 }
 
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
 
 
 
 footer {
-  background-color: white;
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
 
 }
+
+footer, p {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.social {
+  display: inline-block;
+  align: center;
+}
+
+.iconos {
+  width: 100%;
+
+}
+
+
+
+/*movil*/
+@media screen and (max-width:425px) {
+  #menu {
+   float: left;
+   width: 100%;
+   font-size: 100%;
+   }
+
+   #menu li > ul li a {
+   display:none ;
+   }
+
+   #menu li:hover > ul{
+   display:none;
+   }
+
+   #banner img {
+     width:100%;
+   }
+
+   .search_bar {
+     visibility: hidden;
+   }
+
+   header{
+    position: fixed;
+    margin-top: ;
+
+   }
+
+   main {
+     width: 100%;
+     float: right;
+
+
+
+   }
+
+   nav {
+     width: 30%;
+     float: left;
+     position:fixed;
+     margin-top: 27%;
+     font-size: 100%;
+
+   }
+
+   table, th{
+     display: block;
+
+   }
+
+   th a {
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+
+   .cont {
+     width: 70%;
+     float: right;
+     margin-top: 27%;
+     background-color: #FFF;
+
+ }

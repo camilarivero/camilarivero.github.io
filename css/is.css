@@ -1,42 +1,43 @@
 * {
   margin:0;
   padding: 0;
+  font-family:
 
 }
 
 body {
-  background-color: #36332d;
+  background-color: #fff;
 }
+
 
 header {
-  width:100%;
+
 }
 
-.logo {
-  font-size: 100px;
-  font-family: fantasy;
-  color: #fff;
 
-  }
 
   nav {
     background-color: white;
+    width: 100%;
   }
 
 
   #menu{
-    background-color:#fff ;
-    font-family: sans-serif;
+    background-color:#000 ;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
-    float: left;
-    position: relative;
+    float:left;
+    position: ;
     width: 100%;
+    max-width: 100%;
 
   }
 
   #menu .menup{
   margin: 0 auto;
-  padding: 0px;
+  margin-left: 22%;
+  margin-right:
+
 
   }
 
@@ -49,7 +50,7 @@ header {
   }
 
   #menu li a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   }
@@ -58,7 +59,7 @@ header {
   #menu li > ul {
   display:none;
   position:absolute;
-  background: white;
+  background: black;
   padding: 0;
   z-index: 2;
   }
@@ -76,7 +77,7 @@ header {
   width: 150px;
   margin: 0 0 0 5px;
   display:block;
-  color:black;
+  color: white;
   }
 
 
@@ -86,14 +87,176 @@ header {
   top: 35px;
   }
 
-.search_bar {
-  float: right;
-  padding: 10px;
-  margin-right:auto;
+  form {
+    margin-top: 10%;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Questrial', sans-serif;
+  }
+
+
+
+  input[placeholder]:focus {
+    background-color: #f2f2f2;
+}
+
+  #search {
+      background-color: white;
+      background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIk2StRkuoOwAAAABJRU5ErkJggg==");
+      background-position:left ;
+      background-repeat: no-repeat;
+      padding-left: 40px;
+      font-family: 'Julius Sans One', sans-serif;
+      width: 100%;
+      padding:5px 5px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      text-align: center;
+  }
+
+  input[type=submit], select {
+    background-color: #000;
+    border-radius: 4px;
+    border-style: ridge;
+    border-color:#000;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+    margin-left: 7%;
+
+
+  }
+
+  input[placeholder] {
+    border-radius: 4px;
+    border-style: solid;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 40%;
+
+
+  }
+
+
+
+h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 0 0 10px 15px;
+  text-align: center;
+}
+
+p {
+
+}
+
+iframe {
+  width: 80%;
+  margin-left:15%;
+
+
+}
+
+.map {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+footer{
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 
-footer {
-  background-color: white;
+
+
+.social {
+  display: inline-block;
+  align: center;
+}
+
+.iconos {
+  width: 100%;
 
 }
+
+
+
+/*movil*/
+@media screen and (max-width:425px) {
+  #menu {
+   float: left;
+   width: 100%;
+   font-size: 100%;
+   }
+
+   #menu li > ul li a {
+   display:none ;
+   }
+
+   #menu li:hover > ul{
+   display:none;
+   }
+
+   #banner img {
+     width:100%;
+   }
+
+   .search_bar {
+     visibility: hidden;
+   }
+
+   header{
+    position: fixed;
+    margin-top: ;
+
+   }
+
+   main {
+     width: 100%;
+     float: right;
+
+
+
+   }
+
+   nav {
+     width: 30%;
+     float: left;
+     position:fixed;
+     margin-top: 27%;
+     font-size: 100%;
+
+   }
+
+   table, th{
+     display: block;
+
+   }
+
+   th a {
+     padding-left: 30px;
+     padding-right: 30px;
+   }
+
+   .cont {
+     width: 70%;
+     float: right;
+     margin-top: 27%;
+     background-color: #FFF;
+
+ }

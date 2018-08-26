@@ -28,7 +28,9 @@ main {
 }
 
 #banner img {
-  width: 70%
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 section {
@@ -126,8 +128,8 @@ th:hover {
     background-color:#000 ;
     font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
-    float: left;
-    position: relative;
+    float:left;
+    position: ;
     width: 100%;
     max-width: 100%;
 
@@ -135,7 +137,9 @@ th:hover {
 
   #menu .menup{
   margin: 0 auto;
-  padding: 0px;
+  margin-left: 22%;
+  margin-right:
+
 
   }
 
@@ -183,6 +187,27 @@ th:hover {
   display:block;
   width: 150px;
   top: 35px;
+  }
+
+  input[type=text] {
+      background-color: white;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
+      background-position:left ;
+      background-repeat: no-repeat;
+      padding-left: 40px;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding:5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  ::placeholder {
+    text-align: center;
   }
 
 
@@ -276,5 +301,12 @@ footer {
      width: 70%;
      float: right;
      margin-top: 27%;
+     background-color: #FFF;
 
  }
+
+
+
+
+
+}
