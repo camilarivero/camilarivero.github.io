@@ -13,12 +13,13 @@ body {
 header {
 
 }
+
 .contenedor {
   width:100%;
 }
 
 
-}
+
 
 main {
   width: 100%;
@@ -111,12 +112,7 @@ th:hover {
   font-size: 25px;
 
 }
-.logo {
-  font-size: 100px;
-  font-family: fantasy;
-  color: #fff;
 
-  }
 
   nav {
     background-color: white;
@@ -129,16 +125,15 @@ th:hover {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 20px;
     float:left;
-    position: ;
     width: 100%;
     max-width: 100%;
 
   }
 
   #menu .menup{
-  margin: 0 auto;
-  margin-left: 22%;
-  margin-right:
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 
 
   }
@@ -158,36 +153,6 @@ th:hover {
   }
 
 
-  #menu li > ul {
-  display:none;
-  position:absolute;
-  background: black;
-  padding: 0;
-  z-index: 2;
-  }
-
-  #menu li > ul li {
-  padding:0;
-  margin:1px 0;
-  list-style: none;
-  }
-
-
-
-
-  #menu li > ul li a{
-  width: 150px;
-  margin: 0 0 0 5px;
-  display:block;
-  color: white;
-  }
-
-
-  #menu li:hover > ul{
-  display:block;
-  width: 150px;
-  top: 35px;
-  }
 
   input[type=text] {
       background-color: white;
@@ -209,6 +174,7 @@ th:hover {
   ::placeholder {
     text-align: center;
   }
+
 
 
 
@@ -245,19 +211,13 @@ footer {
   #menu {
    float: left;
    width: 100%;
-   font-size: 100%;
+   font-size: 50%;
    }
 
-   #menu li > ul li a {
-   display:none ;
-   }
 
-   #menu li:hover > ul{
-   display:none;
-   }
 
    #banner img {
-     width:100%;
+     width:70%;
    }
 
    .search_bar {
@@ -266,7 +226,8 @@ footer {
 
    header{
     position: fixed;
-    margin-top: ;
+
+    background-color: #FFF;
 
    }
 
@@ -282,13 +243,19 @@ footer {
      width: 30%;
      float: left;
      position:fixed;
-     margin-top: 27%;
+     margin-top: 15%;
      font-size: 100%;
 
    }
 
+   section {
+     width: 70%;
+     font-weight: 20%;
+   }
+
    table, th{
      display: block;
+
 
    }
 
@@ -300,10 +267,29 @@ footer {
    .cont {
      width: 70%;
      float: right;
-     margin-top: 27%;
+     margin-top: 10%;
      background-color: #FFF;
+   }
 
- }
+   footer {
+     float: right;
+
+
+   }
+
+   .social, p {
+     font-size: 40%;
+   }
+
+   .iconos {
+     width: 70%;
+     float: right;
+   }
+
+   .iconos, src {
+     width: 40%;
+   }
+
 
 
 
