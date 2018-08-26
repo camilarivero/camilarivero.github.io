@@ -201,7 +201,6 @@ footer {
 
 .iconos {
   width: 100%;
-
 }
 
 
@@ -281,9 +280,14 @@ footer {
      font-size: 40%;
    }
 
-   .iconos + img {
-     width: ;
+   .iconos > img {
+     width: 10% ;
      float: right;
+   }
+
+  .social >img {
+     width: 60%;
+     
    }
 
 
