@@ -37,6 +37,7 @@ main {
     width: 100%;
     max-width: 100%;
 
+
   }
 
   #menu .menup{
@@ -62,36 +63,6 @@ main {
   }
 
 
-  #menu li > ul {
-  display:none;
-  position:absolute;
-  background: black;
-  padding: 0;
-  z-index: 2;
-  }
-
-  #menu li > ul li {
-  padding:0;
-  margin:1px 0;
-  list-style: none;
-  }
-
-
-
-
-  #menu li > ul li a{
-  width: 150px;
-  margin: 0 0 0 5px;
-  display:block;
-  color: white;
-  }
-
-
-  #menu li:hover > ul{
-  display:block;
-  width: 150px;
-  top: 35px;
-  }
 
   input[type=text] {
       background-color: white;
@@ -115,9 +86,8 @@ main {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 100%;
     font-family:'Julius Sans One', sans-serif;
-    font-weight: inherit;
     text-align: center;
     background-color: #000;
     color: #fff;
@@ -194,29 +164,20 @@ footer {
 @media screen and (max-width:425px) {
   #menu {
    float: left;
-   width: 100%;
-   font-size: 100%;
+   font-size: 50%;
    }
 
-   #menu li > ul li a {
-   display:none ;
-   }
-
-   #menu li:hover > ul{
-   display:none;
-   }
-
-   #banner img {
-     width:100%;
+   #menu li {
+     text-align: center;
    }
 
    .search_bar {
      visibility: hidden;
    }
 
-   header{
+   header {
     position: fixed;
-    margin-top: ;
+    background-color: #FFF;
 
    }
 
@@ -224,33 +185,52 @@ footer {
      width: 100%;
      float: right;
 
-
-
    }
+
+
 
    nav {
      width: 30%;
      float: left;
      position:fixed;
-     margin-top: 27%;
+     margin-top: 15%;
      font-size: 100%;
 
    }
 
-   table, th{
-     display: block;
-
+   h1 {
+     font-size: 10%;
+   }
+   .opt, a {
+     font-size: 10%;
    }
 
-   th a {
-     padding-left: 30px;
-     padding-right: 30px;
-   }
+
+
 
    .cont {
      width: 70%;
      float: right;
-     margin-top: 27%;
+     margin-top: 20%;
+     margin-bottom: 80%;
      background-color: #FFF;
+   }
 
- }
+   footer {
+     float: right;
+
+   }
+
+   .social, p {
+     font-size: 40%;
+   }
+
+   .iconos > img {
+     width: 10% ;
+     float: right;
+   }
+
+  .social >img {
+     width: 60%;
+
+   }
