@@ -1,33 +1,21 @@
 * {
-  margin:0;
-  padding: 0;
-  font-family:
+   margin:0;
+   padding: 0;
+   font-family:
 
-}
+   }
 
 
-main {
-  width: 100%;
-  max-width: 100%;
-  min-width: 100%;
-
-}
-
-header {
-  background-color: white;
-}
+ header {
+   background-color: white;
+   }
 
 
 
   nav {
     background-color: white;
     width: 100%;
-  }
-
-  article {
-   font-family: 'Questrial', sans-serif;
-   border-radius: 8px;
-  }
+   }
 
 
   #menu{
@@ -42,39 +30,34 @@ header {
   }
 
   #menu .menup{
-  margin: 0 auto;
-  margin-left: 22%;
-  margin-right:
+   margin: 0 auto;
+   margin-left: 22%;
+   margin-right:
 
 
   }
 
   #menu li{
-  float:left;
-  position: relative;
-  padding: 6px 0;
-  margin: 10px;
-  list-style: none;
+   float:left;
+   position: relative;
+   padding: 6px 0;
+   margin: 10px;
+   list-style: none;
   }
 
   #menu li a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
   }
 
 
-
-
-  input[type=text] {
-      background-color: white;
-      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
-      background-position:left ;
-      background-repeat: no-repeat;
-      padding-left: 40px;
-  }
-
-  input[type=text], select {
+  #search {
+    background-color: white;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
+    background-position:left ;
+    background-repeat: no-repeat;
+    padding-left: 40px;
     width: 100%;
     padding:5px 5px;
     display: inline-block;
@@ -99,7 +82,40 @@ header {
     text-decoration: none;
     font-size: 15px;
     font-family: 'Questrial', sans-serif;
-}
+  }
+
+  main {
+   width: 100%;
+   max-width: 100%;
+   min-width: 100%;
+
+  }
+
+  section {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+  }
+
+  h1 {
+    font-size: 20px;
+    font-family:'Julius Sans One', sans-serif;
+    font-weight: inherit;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 2px;
+
+  }
+
+
+  article {
+   font-family: 'Questrial', sans-serif;
+   border-radius: 8px;
+  }
 
 
  dl {
@@ -115,27 +131,6 @@ header {
 
  }
 
-
-
-h1 {
-  font-size: 20px;
-  font-family:'Julius Sans One', sans-serif;
-  font-weight: inherit;
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-radius: 2px;
-
-}
-
-section {
-  padding-top: 5%;
-  padding-left: 20%;
-  padding-right: 20%;
-
-}
 
 hr {
   margin-left: auto;
@@ -196,7 +191,7 @@ footer, p {
    }
 
    nav {
-     width: 30%;
+     width: 20%;
      float: left;
      position:fixed;
      margin-top: 15%;
@@ -210,7 +205,7 @@ footer, p {
 
 
    .cont {
-     width: 70%;
+     width: 80%;
      float: right;
      background-color: #FFF;
      font-size: 50%;

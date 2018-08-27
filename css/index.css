@@ -2,30 +2,77 @@
   margin:0;
   padding: 0;
   font-family: 'Julius Sans One', sans-serif;
-
 }
 
 body {
   background-color: #fff;
 }
 
-
-header {
-
+nav {
+  background-color: white;
+  width: 100%;
 }
+
+
+#menu{
+  background-color:#000 ;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 20px;
+  float:left;
+  width: 100%;
+  max-width: 100%;
+}
+
+#menu .menup {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#menu li{
+  float:left;
+  position: relative;
+  padding: 6px 0;
+  margin: 10px;
+  list-style: none;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+#search {
+  background-color: white;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
+  background-position:left ;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  width: 100%;
+  padding:5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+
 
 .contenedor {
   width:100%;
 }
 
 
-
-
 main {
   width: 100%;
   max-width: 100%;
   min-width: 100%;
-
 }
 
 #banner img {
@@ -45,13 +92,11 @@ section {
   width: 70%;
   padding-bottom: 10px;
   padding-top: 10px;
-
 }
 
 .container {
   border-width: thick;
   border-color: #fff;
-  background-color: ;
   width: 70%;
   margin-right: 15%;
   margin-left: 15%;
@@ -65,7 +110,6 @@ table, tr {
   width: 100%;
   background-color: #f2f2f2;
   font-size: 100%;
-
 }
 
 th a {
@@ -80,14 +124,12 @@ th:hover {
 .cont {
   width: 100%;
   margin-top: 5%;
-
 }
 
 .fav {
   border: 1px solid black;
   width: 100%;
   background-color: #f2f2f2;
-
 }
 
 #favoritos {
@@ -113,71 +155,6 @@ th:hover {
 
 }
 
-
-  nav {
-    background-color: white;
-    width: 100%;
-  }
-
-
-  #menu{
-    background-color:#000 ;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 20px;
-    float:left;
-    width: 100%;
-    max-width: 100%;
-
-  }
-
-  #menu .menup{
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-
-
-  }
-
-  #menu li{
-  float:left;
-  position: relative;
-  padding: 6px 0;
-  margin: 10px;
-  list-style: none;
-  }
-
-  #menu li a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  }
-
-
-
-  input[type=text] {
-      background-color: white;
-      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVEhL7ZNJCgIxEEV7L+7U86g3UDyKIC7E6UBO13A6STvgWv0vdECENoO0gvjgQaaqdFeS5GepyqncyksmbcYq8i068ixvOR5lW0ZB8qsk0UzWZSmTNmPMsaYlg6hJ++VdBnLoSdacZFC5qC+Bc9N7zVKydmx6nuwlQZTCRUOydmd6ntjyUG8XZclaYryJ2YDr6w2/SxC/78KWiLfhzUQSFHLII9PzhNfL1SOQq5hHX7ImlcQEweOxD20hKQX1xqZcSeZwIKNgk4O0iZ5ljuS2P5TB8EI5k43kdnFb1pJktiyPm0Zt4oID/m/izcc3oV0IJC4s+TdIkjtvw2StRkuoOwAAAABJRU5ErkJggg==");
-      background-position:left ;
-      background-repeat: no-repeat;
-      padding-left: 40px;
-  }
-
-  input[type=text], select {
-    width: 100%;
-    padding:5px 5px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-  ::placeholder {
-    text-align: center;
-  }
-
-
-
-
 h1 {
   font-size: 30px;
   font-family: sans-serif;
@@ -196,7 +173,7 @@ footer {
 
 .social {
   display: inline-block;
-  align: center;
+
 }
 
 .iconos {
@@ -229,21 +206,16 @@ footer {
 
    header{
     position: fixed;
-
     background-color: #FFF;
-
    }
 
    main {
      width: 100%;
      float: right;
-
-
-
    }
 
    nav {
-     width: 30%;
+     width: 20%;
      float: left;
      position:fixed;
      margin-top: 15%;
@@ -253,13 +225,10 @@ footer {
 
    section {
      width: 70%;
-     font-weight: ;
    }
 
    table, th{
      display: block;
-
-
    }
 
    th a {
@@ -268,7 +237,7 @@ footer {
    }
 
    .cont {
-     width: 70%;
+     width: 80%;
      float: right;
      margin-top: 10%;
      background-color: #FFF;
@@ -292,11 +261,6 @@ footer {
   .social >img {
      width: 60%;
    }
-
-
-
-
-
 
 
 }
