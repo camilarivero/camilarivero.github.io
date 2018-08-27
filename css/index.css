@@ -192,6 +192,7 @@ footer {
 
    #menu li {
      text-align: center;
+     margin-left: 0%;
    }
 
 
@@ -239,7 +240,8 @@ footer {
    .cont {
      width: 80%;
      float: right;
-     margin-top: 10%;
+     margin-top: 15%;
+     margin-bottom: 0.5%;
      background-color: #FFF;
    }
 
@@ -264,3 +266,80 @@ footer {
 
 
 }
+
+/*tablet*/
+
+@media screen and (max-width:768px) {
+
+  #menu {
+   float: left;
+   width: 100%;
+   font-size: 20%;
+   }
+
+   #menu li {
+     margin-left: 0%;
+     margin-right: 100%;
+   }
+
+   .search_bar {
+     visibility: hidden;
+   }
+
+   header{
+    position: fixed;
+    margin-top: ;
+
+   }
+
+   main {
+     width: 100%;
+     float: right;
+
+
+
+   }
+
+   nav {
+     width: 10%;
+     float: left;
+     position:fixed;
+     margin-top: 15%;
+     font-size: 100%;
+
+   }
+
+
+
+   .cont {
+     width: 90%;
+     float: right;
+     margin-top: 16%;
+     
+     background-color: #FFF;
+     font-size: 50%;
+
+   }
+
+
+      footer {
+        float: right;
+
+
+      }
+
+      .social, p {
+        font-size: 40%;
+      }
+
+      .iconos > img {
+        width: 10% ;
+        float: right;
+      }
+
+     .social >img {
+        width: 60%;
+      }
+
+
+  }
