@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
     digital.addEventListener("change", function (){
         if (digital.checked) {
             document.getElementById("direccion").style.display = "none";
-            document.getElementById("envio").style.display = "none";
+            document.getElementById("envio-div").style.display = "none";
             total.innerHTML = "$" + cimp;
 
 

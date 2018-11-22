@@ -1,4 +1,4 @@
-var juegosStr = '[{"Nombre":"Vampyr", "Genero":"Acción", "Descripcion":"Vampyr es una aventura de rol y acción de los creadores de Remember Me y Life is Strange, en la que encarnamos a un vampiro dividido por su origen. Por un lado la faceta vampírica de Jonathan E. Reid le empuja a asesinar, mientras que la humana, la de un doctor, le incita a ayudar a sus víctimas.", "Valoración":"75", "Precio":"USD50", "Trailer":"https://www.youtube.com/watch?v=QDd8TJwVZ0s"}]';
+var juegosStr = '[{"Nombre":"Vampyr","Genero":"Acción", "Descripcion":"Vampyr es una aventura de rol y acción de los creadores de Remember Me y Life is Strange, en la que encarnamos a un vampiro dividido por su origen. Por un lado la faceta vampírica de Jonathan E. Reid le empuja a asesinar, mientras que la humana, la de un doctor, le incita a ayudar a sus víctimas.", "Valoración":"75", "Precio":"USD50", "Trailer" : "https://www.youtube.com/watch?v=QDd8TJwVZ0s" }]';
 var juegos = JSON.parse(juegosStr);
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var trailer = document.getElementById("juego-trailer");
     trailer.setAttribute("href", juegos[0].Trailer);
+    console.log(juegos[0].Trailer);
 
 })
 

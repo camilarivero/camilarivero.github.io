@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Questrial" rel="stylesheet">
   <link href="css/compra.css" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/compra.js"></script>
-  <title>ACCIÓN</title>
+  <title>COMPRAR</title>
 
 
 </head>
@@ -42,7 +42,7 @@
 
                 <form id="compra" action="url" >
             
-                    <legend>Complete el formulario para efectuar la compra.</legend>
+                    <legend>Complete el formulario para realizar la compra.</legend>
             
                     <br>
             
@@ -97,7 +97,8 @@
                         <label for="campo6"></label>
                         <br>
                         <select name="tarjetas" id="campo6">
-                         <option value "VISA">VISA</option>
+                        <option value "">- - - -</option>
+                        <option value "VISA">VISA</option>
                          <option value "OCA">OCA</option>
                          <option value "CABAL">CABAL</option>
                         </select>
@@ -139,12 +140,14 @@
 
                     <br>
 
-                    <p><strong>ENVÍO</strong></p>
 
                     <br>
 
                     <div id="envio-div">
-                        <label for="campo12"></label>
+                        
+                        <label for="envio"></label><strong>ENVÍO</strong></label>
+                        <br>
+                        <br>
                         <select name="envio" id="envio">
                             <option value="normal" id="normal">- - - - </option>                          
                             <option value="normal" id="normal">NORMAL</option>
@@ -176,7 +179,7 @@
                     <hr></hr>
                     <br>
                     <br>
-                      <input type="submit" value="Comprar" onclick='alert("¡Su compra fue efectuada con exito!")' >
+                      <input type="submit" value="Comprar" onclick='alert("¡Su compra fue realizada con exito!")' >
                       <br>
                       <br>
                       <input type="reset" id="reset" value="Cancelar">
