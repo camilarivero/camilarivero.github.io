@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Questrial" rel="stylesheet">
-  <link href="css/accion.css" rel="stylesheet" type="text/css">
-  <script src="js/accion.js"></script>
+  <link href="css/compra.css" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/compra.js"></script>
   <title>ACCIÓN</title>
 
 
@@ -38,66 +38,159 @@
   </nav>
 
   <main>
-    <div class="cont">
-    <br>
-    <br>
-    <section>
-      <h1> ACCIÓN </h1>
-     </section>
+        <div class="cont">
 
-    <article>
+                <form id="compra" action="url" >
+            
+                    <legend>Complete el formulario para efectuar la compra.</legend>
+            
+                    <br>
+            
+                    <div>
+                      <label for="campo1"></label>
+                      <br>
+                      <input placeholder="Nombre y Apellido" type="text" id="campo1" name="nombre" maxlength="30" required>
+                    </div>
+            
+                    <br>
+            
+                    <div>
+                      <label for="campo2"></label>
+                      <br>
+                      <input placeholder="Email" type="email" id="campo2" name="email"required>
+                    </div>
+            
+                    <br>
+            
+                    <div>
+                      <label for="campo3"></label>
+                      <br>
+                      <input placeholder="Cantidad" type="number" id="cantidad" name="cantidad" min="1" max="10" required >
+                    </div>
 
-     <dl>
-       <dt><img src="img/vampyr.jpg" alt="Portada de juego vampyr." title="Vampyr"align="center" border="double" width="100%" height="auto"></dt>
-       <br>
-       <dt>
-           Nombre: <dd id="juego-nombre"></dd>
-      </dt>
-       <br>
-       <dt>Genero:</dt>
-       <dd id="juego-genero"></dd>
-       <br>
-       <dt>Descripción:</dt>
-       <dd id="juego-descripcion">Vampyr es una aventura de rol y acción de los creadores de Remember Me y Life is Strange, en la que encarnamos a un vampiro dividido por su origen. Por un lado la faceta vampírica de Jonathan E. Reid le empuja a asesinar, mientras que la humana, la de un doctor, le incita a ayudar a sus víctimas.</dd>
-       <br>
-       <dt>Valoración:</dt>
-       <dd><meter value="" max="100" min="20" high="98" low="43" optimum="80" id="juego-valoracion" ></meter> </dd>
-       <br>
-       <dt>Precio:</dt>
-       <dd id="juego-precio"></dd><input type="button" onclick="location.href='compra.html';" value="COMPRAR">
-       <br>
-       <dt>Trailer:</dt>
-       <dd id="juego-trailer"><a href="" >Ver aquí.</a></dd>
-     </dl>
-    </article>
-    <br>
-     <hr></hr>
-    <br>
-    <article>
+                    <div>
+                        <label for="campo4"></label>
+                        <br>
+                        <p> Formato del juego:</p>
+                        <br>
+                        <input type="radio" id="digital" name="formato" value="digital" required>Digital
+                        <input type="radio" id="CD" name="formato" value="CD" required>CD
+                    </div>
+                    <br>
 
-     <dl>
-       <dt><img src="img/lastofus.jpg" alt="Portada del juego The last of us" title="The last of us"align="center" border="double" width="100%" height="auto"></dt>
-       <br>
-       <dt>Nombre:</dt>
-       <dd>The last of us.</dd>
-       <br>
-       <dt>Genero:</dt>
-       <dd>Acción.</dd>
-       <br>
-       <dt>Descrpción:</dt>
-       <dd>El videojuego presenta un escenario en el que la población ha sido diezmada por una terrible plaga, y los supervivientes se están matando entre sí por la comida y las armas.</dd>
-       <br>
-       <dt>Valoración:</dt>
-       <dd><meter value="100" max="100" min="20" high="98" low="43" optimum="100" ></meter></dd>
-       <br>
-       <dt>Precio:</dt>
-       <dd>USD 20 <div> <input type="submit" value="COMPRAR"> <a href="cuenta.html"></a> </div></dd>
-       <br>
-       <dt>Trailer:</dt>
-       <dd><a href="https://www.youtube.com/watch?v=Co0mF_imNys">Ver aquí.</a></dd>
-     </dl>
-    </article>
-  </div>
+                    <div id="direccion">
+                      <label for="campo5"></label>
+                      <br>
+                      <input placeholder="Dirección" type="text" id="direccion" name="dirección" required>
+                    </div>
+            
+                    <br>
+                    <hr></hr>
+                    <br>
+                    <div>
+                        <br>
+                        <p><strong>FORMA DE PAGO</strong></p>
+                        <br>
+                    </div>
+
+                    <div>
+                        <label for="campo6"></label>
+                        <br>
+                        <select name="tarjetas" id="campo6">
+                         <option value "VISA">VISA</option>
+                         <option value "OCA">OCA</option>
+                         <option value "CABAL">CABAL</option>
+                        </select>
+
+                    </div>
+
+              
+        
+                    <div>
+                      <label for="campo7"></label>
+                      <br>
+                      <input placeholder="Nombre en la tarjeta" type="text" id="campo7" name="nombre en la tarjeta" required>
+                    </div>
+
+                    <div>
+                      <label for="campo8"></label>
+                      <br>
+                      <input placeholder="Número de la tarjeta de credito" type="number" id="campo8" name="número de la tarjeta de credito" required>
+                    </div>
+
+                    <div>
+                        <label for="campo9"></label>
+                        <br>
+                        <input placeholder="Mes de vencimiento" type="text" id="campo9" name="mes de vencimiento" required>
+                    </div>
+                  
+
+                    <div>
+                      <label for="campo10"></label>
+                      <br>
+                      <input placeholder="Año de vencimiento" type="number" id="campo10" name="año de vencimiento" required>
+                    </div>
+
+                    <div>
+                      <label for="campo11"></label>
+                      <br>
+                      <input placeholder="CVV" type="number" id="campo11" name="CVV" required>
+                    </div>
+
+                    <br>
+
+                    <p><strong>ENVÍO</strong></p>
+
+                    <br>
+
+                    <div id="envio-div">
+                        <label for="campo12"></label>
+                        <select name="envio" id="envio">
+                            <option value="normal" id="normal">- - - - </option>                          
+                            <option value="normal" id="normal">NORMAL</option>
+                            <option value="especial" id="especial">ESPECIAL</option>
+                            <option value="premium" id="premium">PREMIUM</option>
+                        </select>
+                    </div>
+
+                    <br>
+                    <br>
+                    <hr></hr>
+                    <br>
+                    <br>
+
+                    <div>
+                        <p><strong>SUBTOTAL<span id="subtotal"></span></strong></p>
+                    </div>
+
+                    <div>
+                      <p><strong>+IMPUESTO<span id="imp"></span></strong></p>
+                  </div>
+
+                    <div>
+                      <p><strong>TOTAL<span id="total"></span></strong></p>
+                  </div>
+
+                    <br>
+                    <br>
+                    <hr></hr>
+                    <br>
+                    <br>
+                      <input type="submit" value="Comprar" onclick='alert("¡Su compra fue efectuada con exito!")' >
+                      <br>
+                      <br>
+                      <input type="reset" id="reset" value="Cancelar">
+                    <br>
+                    <br>
+                    <br>
+
+
+                    
+            
+            
+                </form>
+
+
 
 
 

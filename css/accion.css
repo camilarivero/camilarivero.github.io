@@ -1,8 +1,6 @@
 * {
   margin:0;
   padding: 0;
-  font-family:
-
 }
 
 header {
@@ -138,15 +136,12 @@ footer, p {
 
 .social {
   display: inline-block;
-  align: center;
 }
 
 .iconos {
   width: 100%;
 
 }
-
-
 
 /*movil*/
 @media screen and (max-width:425px) {
@@ -167,7 +162,6 @@ footer, p {
 
    header{
     position: fixed;
-    margin-top: ;
 
    }
 
